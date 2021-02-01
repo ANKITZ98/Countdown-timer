@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-image: url(avenger.jpg);
+    background-size: cover;
+    background-position: center center;
+margin: 0;
+min-height: 100vh;
+display: flex;
+align-items: center;
+
+flex-direction: column;
+}
+.countdown-container{
+    display: flex;
+    flex-wrap: wrap;
+  justify-content: center;
+}
+.h1{
+    font-size: 4rem;
+    margin-top: -6rem;
+    
+    
+    
+    
+}
+.big-text{
+    font-size: 4rem;
+    line-height: 1;
+    margin: 0 2rem;
+    font-weight: bolder;
+  
+}
+.countdown-el{
+    text-align: center;
+}
+.countdown-el span{
+    font-size: 2rem;
+    font-family: cursive;
+    color: red;
+    
+}
+.title{
+    font-family:cursive;
+    color:red;
+    font-weight: lighter
+}
